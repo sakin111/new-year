@@ -260,3 +260,71 @@ height: 300px;
     line-height: normal;
     margin-top: 24px;
 }
+
+
+.footer{
+display: flex;
+color: #F8F8F8;
+width: 1600px;
+height: 577px;
+background:#151414;
+justify-content: space-between;
+overflow: hidden;
+}
+
+
+
+.footer-social{
+
+margin-left: 250px;
+margin-top: 120px;
+
+}
+
+.subscribe{
+
+margin-right: 450px;
+margin-top: 120px;
+}
+
+
+.footer-p1{
+width:485px;
+height:78px ;
+color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+
+}
+
+
+.footer-h1{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.footer-p2{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-p3{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;  
+}
