@@ -260,6 +260,13 @@ height: 300px;
     line-height: normal;
     margin-top: 24px;
 }
+.head-footer-all{
+margin-bottom: 200px;
+
+}
+
+
+ /*  footer starts from here */
 
 
 .footer{
@@ -276,17 +283,27 @@ overflow: hidden;
 
 .footer-social{
 
-margin-left: 250px;
+margin-left: 200px;
 margin-top: 120px;
 
 }
 
 .subscribe{
 
-margin-right: 450px;
+margin-right: 400px;
 margin-top: 120px;
+display: flex;
+flex-direction: column;
 }
 
+.footer-h1{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 .footer-p1{
 width:485px;
@@ -297,19 +314,11 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px;
-
+margin-top: 24px;
 }
 
 
-.footer-h1{
-    color: #F8F8F8;
-    font-family: Work Sans;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 
-}
 
 .footer-p2{
     color: #FFF;
@@ -318,6 +327,7 @@ line-height: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-top: 24px;
 }
 
 .footer-p3{
@@ -326,5 +336,55 @@ line-height: 26px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;  
+    line-height: 26px; 
+    margin-top: 24px; 
+}
+
+.icon{
+width: 30px;
+height: 30px;    
+display:flex;
+gap: 10px;
+justify-content: space-between;
+margin-top: 24px;
+
+}
+
+input{
+
+width: 300px;
+height: 40px;
+margin-top: 24px;
+border-radius: 5px;
+background-color: #151414;
+border: 1px solid #fff;
+
+}
+
+.footer-btn{
+margin-top: 24px;
+width: 130px;
+height:52px;
+color: #F15B22;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 5px;
+background-color: #fff;
+
+}
+
+.input-email{
+
+position: relative;
+
+}
+
+.input-email input::placeholder{
+
+    text-align:center;
+    margin-right: 140px;
+    
 }
